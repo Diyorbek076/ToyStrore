@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+button:hover,
+.btn_icon:hover {
+    cursor: pointer;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.btn_icon {
+    height: 28;
+    width: 28;
+    object-fit: cover;
+}
+
+.top_nav {
+    background-color: #A5C926;
+    color: white;
+}
+
+.bottom_nav {
+    height: 72px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.container {
+    height: inherit;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    height: 32px;
+    max-width: 1440px;
+    background-color: #A5C926;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_item {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.right_item {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    align-items: center;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.rounded {
+    border-radius: 50%;
+    background-color: #A5C926;
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+    text-align: center;
+}
+
+.main_image {
+    min-height: 640px;
+    max-width: 1440px;
+    min-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-image: url('./image/headerImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center_card {
+    width: 570px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 48px;
+    gap: 18px;
+    padding: 0px 77px;
+    background-color: white;
+    color: #111111;
+    border-radius: 16px;
+}
+
+.center_card button {
+    background-color: #A5C926;
+    color: white;
+    height: 48px;
+    width: 153px;
+    border-radius: 24px;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.center_card p {
+    color: #A5C926;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.bg_catalog {
+    padding: 120px 0;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+}
+
+.catalog_Card_left {
+    background-color: #FFC12C;
+    border-radius: 16px;
+    width: 570px;
+    height: 188px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.img_container {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    bottom: 30px;
+}
+
+.img_container img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.catalog_Card_right {
+    padding-left: 21px;
+    background: #FB416B;
+    border-radius: 16px;
+    width: 570px;
+    height: 188px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    gap: 30px;
+}
+
+.catalog_Card_right .column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.column button {
+    margin-top: 16px;
+    background-color: white;
+    color: black;
+    width: 112px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    color: #111111;
+}
+
+.section_header {
+    display: flex;
+    margin-bottom: 55px;
+    gap: 0;
+}
+
+.bg_stuffed_animals {
+    padding: 40px;
+}
+
+.section_header h2 {
+    padding-bottom: 34px;
+    font-size: 1.571em;
+    font-weight: 400;
+    border-bottom: 2px solid #A5C926;
+    flex-shrink: 0;
+    margin-bottom: 0px;
+}
+
+.sized_box {
+    display: flex;
+    width: 90%;
+    justify-content: end;
+    margin-bottom: 0;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.sized_box button {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 34px;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.toy_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 328px;
+    width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.toys_catalog_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_card {
+    height: 182px;
+    width: 182px;
+    margin-bottom: 25px;
+}
+
+.img_card img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+
+}
+
+.toy_card h4 {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 12px;
+}
+
+.btn_UI {
+    width: 92px;
+    height: 24px;
+    background: #A5C926;
+    border-radius: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn_UI:hover,
+.toy_card:hover,
+.btn_hover:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.15);
+}
+
+.img_card {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.img_card:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.img_card::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+.img_card:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+.bg_about {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('./image/About.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 464px;
+    width: 100%;
+}
+
+.about {
+    width: 800px;
+    height: 232px;
+}
+
+.about p {
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.about h2 {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.about__p {
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.about button {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    background-color: #A5C926;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_delivery {
+    padding: 120px;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.delivery p {
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #A5C926;
+}
+
+.delivery h3 {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    text-align: center;
+    color: #111111;
+}
+
+.delivery_card {
+    width: 600px;
+    height: 128px;
+    margin-bottom: 80px;
+}
+
+.delivery_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500.05px;
+    height: 261px;
+    margin: auto;
+}
+
+.delivery_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delivery_left h3 {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    color: #111111;
+    margin-bottom: 24px;
+}
+
+.delivery_left p {
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    margin-bottom: 26px;
+}
+
+.line{
+    height: 2px;
+    width: 70px;
+    background-color: #A5C926;
+    margin-bottom: 25px;
+}
