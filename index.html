@@ -19,21 +19,31 @@
                         <h3>Email: toystore@template.com</h3>
                     </div>
                     <div class="right_item">
-                        <div class="btn_icon">
-                            <img src="./image/twitter.svg" alt="Twitter">
-                        </div>
-                        <div class="btn_icon">
-                            <img src="./image/facebook.svg" alt="Facebook">
-                        </div>
-                        <div class="btn_icon">
-                            <img src="./image/Instagram.svg" alt="Instagram">
-                        </div>
-                        <div class="btn_icon">
-                            <img src="./image/Pinterest.svg" alt="Pinterest">
-                        </div>
-                        <div class="btn_icon">
-                            <img src="./image/YouTube.svg" alt="YouTube">
-                        </div>
+                        <a href="https://twitter.com/i/flow/login">
+                            <div class="btn_icon">
+                                <img src="./image/twitter.svg" alt="Twitter">
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/login.php/">
+                            <div class="btn_icon">
+                                <img src="./image/facebook.svg" alt="Facebook">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/accounts/login/">
+                            <div class="btn_icon">
+                                <img src="./image/Instagram.svg" alt="Instagram">
+                            </div>
+                        </a>
+                        <a href="https://www.pinterest.com/login/">
+                            <div class="btn_icon">
+                                <img src="./image/Pinterest.svg" alt="Pinterest">
+                            </div>
+                        </a>
+                        <a href="https://www.youtube.com/">
+                            <div class="btn_icon">
+                                <img src="./image/YouTube.svg" alt="YouTube">
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -43,10 +53,18 @@
                 <div class="navbar" style="background: transparent; height: 72px;">
                     <div class="left_item">
                         <img src="./image/ToyStoreLogo.svg" alt="ToyStore Logo">
-                        <button>Catalog</button>
-                        <button>Delivery</button>
-                        <button>About</button>
-                        <button>Contacts</button>
+                        <form for="fname">
+                            <button>Catalog</button>
+                        </form>
+                        <form action="">
+                            <button>Delivery</button>
+                        </form>
+                        <form action="">
+                            <button>About</button>
+                        </form>
+                        <form action="">
+                            <button>Contacts</button>
+                        </form>
                     </div>
                     <div class="right_item">
                         <p>Cart</p>
@@ -179,7 +197,8 @@
             <div class="about">
                 <p>About The Shop</p>
                 <h2>Watch Our Story</h2>
-                <p class="about__p">There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer’s mood.</p>
+                <p class="about__p">There is no magic formula to write perfect ad copy. It is based on a number of
+                    factors, including ad placement, demographic, even the consumer’s mood.</p>
                 <button><img src="./image/play_btn.svg" alt=""></button>
             </div>
         </div>
@@ -187,13 +206,18 @@
             <div class="container delivery">
                 <div class="delivery_card">
                     <p>Made for Webflow</p>
-                <h3>Simple & Colorful Ecommerce Template for Your Business</h3>
+                    <h3>Simple & Colorful Ecommerce Template for Your Business</h3>
                 </div>
+
+            </div>
+            <div class="container">
                 <div class="delivery_row">
                     <div class="delivery_left">
                         <h3>Available for FREE!</h3>
                         <div class="line"></div>
-                        <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy</p>
+                        <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing
+                            result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers
+                            to take action. There is no magic formula to write perfect ad copy</p>
                         <button class="btn_UI">GET IT NOW!</button>
                     </div>
                     <div class="delivery_right">
@@ -202,8 +226,94 @@
                 </div>
             </div>
         </div>
+        <div class="container newsletter">
+            <div class="newsletter_left">
+                <div class="newsletter_img">
+                    <img src="./image/Telegram.png" alt="">
+                </div>
+                <h3>Subscribe to our newsletter <br> & get <span>10% discount!</span></h3>
+            </div>
+            <div class="newsletter_right">
+                <div class="newsletter_left_btn btn_icon btn_UI"></div>
+                <div class="newsletter_right_btn btn_icon btn_UI"></div>
+            </div>
+        </div>
+        <div class="container photos_card">
+            <div class="delivery">
+                <p>@ElasticThemes</p>
+                <h3>We're on Instagram!</h3>
+            </div>
+            <div class="photos">
+                <div class="img_card_photos">
+                    <img src="./image/img1.png" alt="">
+                </div>
+                <div class="img_card_photos">
+                    <img src="./image/img2.png" alt="">
+                </div>
+                <div class="img_card_photos">
+                    <img src="./image/img3.png" alt="">
+                </div>
+                <div class="img_card_photos">
+                    <img src="./image/img4.png" alt="">
+                </div>
+                <div class="img_card_photos">
+                    <img src="./image/img5.png" alt="">
+                </div>
+                <div class="img_card_photos">
+                    <img src="./image/img6.png" alt="">
+                </div>
+            </div>
+
+            <button class="photo_btn btn_UI">See More Photos</button>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer_box" id="fname" name="fname">
+            <div class="top_footer container">
+                <div class="logo_footer">
+                    <img src="./image/ToyStoreFooter.svg" alt="">
+                </div>
+                <div class="center_footer">
+                    <button style="color: white;">Home</button>
+                    <button style="color: white;">Catalog</button>
+                    <button style="color: white;">Delivery</button>
+                    <button style="color: white;">About</button>
+                    <button style="color: white;">Contacts</button>
+                </div>
+                <div class="right_item">
+                    <div class="btn_icon">
+                        <img src="./image/twitter.svg" alt="Twitter">
+                    </div>
+                    <div class="btn_icon">
+                        <img src="./image/facebook.svg" alt="Facebook">
+                    </div>
+                    <div class="btn_icon">
+                        <img src="./image/Instagram.svg" alt="Instagram">
+                    </div>
+                    <div class="btn_icon">
+                        <img src="./image/Pinterest.svg" alt="Pinterest">
+                    </div>
+                    <div class="btn_icon">
+                        <img src="./image/YouTube.svg" alt="YouTube">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom_footer container">
+                <div class="left_footer">
+                    <p>Created with love by</p>
+                    <p>Elastic Themes</p>
+                </div>
+                <div class="right_footer">
+                    <button style="color: white;">Powered by</button>
+                    <button style="color: white;">Webflow</button>
+                    <button style="color: white;">Style Guide</button>
+                    <button style="color: white;">Licensing</button>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 
 </body>
 
